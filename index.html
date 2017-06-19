@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Опитування</title>
+</head>
+<body>
+   <h1>Соціологічне опитування</h1><br>
+   <h3>Особливості ідентичності громадян України</h3>
+   
+   <h5><a href="https://project2-roksolana13k.c9users.io/form.html">Перейти до таблиці</a></h5>
+   
+   
+   <form action="https://formspree.io/roksolana13k@gmail.com" method="POST">
+       Ім'я та прізвище
+       <input type="text"/><br>
+       Рік народження
+       <input type="text" name="Рік"/><br>
+       Область проживання
+       <input type="text" name="область"/><br>
+       <h4>Запитання</h4><br>
+       <ol>
+           <li>Ким Ви вважаєте себе в першу чергу?</li>
+           
+           <input type="radio" name="самоідентичність" value="Громадянином України" checked> Громадянином України<br>
+           <input type="radio" name="самоідентичність" value="Жителем села, району чи міста, в якому Ви живете">Жителем села, району чи міста, в якому Ви живете<br>
+           <input type="radio" name="самоідентичність" value="Жителем регіону, де Ви живете">Жителем регіону, де Ви живете<br>
+           <input type="radio" name="самоідентичність" value="Громадянином світу">Громадянином світу<br>
+           <input type="radio" name="самоідентичність" value="Інше">Інше<br>
+            
+            <li>Якби у Вас була можливість отримати крім українського громадянство іншої країни, яке б громадянство Ви обрали?</li>
+             
+             <input list="громадянство" name=""/>
+             <datalist id="громадянство">
+              <option value="США">
+              <option value="Канади">
+              <option value="Німеччини">
+              <option value="Ізраїлю">
+              <option value="Польщи">
+              <option value="Росії">
+              <option value="інше"><br>
+             </datalist>
+             
+             <li>А якщо Вам для отримання іншого громадянства треба було б відмовитися від громадянства України, чи пішли б ви на це?</li>
+             
+                 <input type="radio" name="громадянство" value="так" checked>Так<br>
+                 <input type="radio" name="громадянство" value="ні">Ні<br>
+                 <input type="radio" name="громадянство" value="важко відповісти">Важко відповісти<br>
+             
+             
+            <li>Що для Вас особисто означає бути громадянином України?</li>
+                <textarea name="Громадянство" rows="5" cols="70"/></textarea>
+                
+            <li>Чи маєте Ви почуття патріотизму, любові до України?</li>
+            
+                <input list="патріотизм" name=""/>
+                     <datalist id="патріотизм">
+                       <option value="так">
+                       <option value="ні">
+                       <option value="важко відповісти">
+                     </datalist>
+                     
+            <li>Чи змінилося за останні три роки Ваше ставлення до України?</li>
+            
+                 <input type="radio" name="Україна" value="не змінилося" checked>не змінилося<br>
+                 <input type="radio" name="Україна" value="погіршилося">погіршилося<br>
+                 <input type="radio" name="Україна" value="покращилося">покращилося<br>
+                 
+            <li>Чи відчуваєте Ви особисту відповідальність за долю України?</li>
+            
+                <input type="radio" name="доля України" value="так" checked>так<br>
+                <input type="radio" name="доля України" value="скоріше так">скоріше так<br>
+                <input type="radio" name="доля України" value="ні">ні<br>
+                <input type="radio" name="доля України" value="скоріше ні">скоріше ні<br>
+                <input type="radio" name="доля України" value="важко відповісти">важко відповісти<br>
+                
+            <li>Кого вважаєте Ви патріотами?</li>
+                
+                <input type="checkbox" name="патріоти" value="АТО">Українських військовослужбовців, які воюють або воювали в зоні АТО<br>
+                <input type="checkbox" name="патріоти" value="себе">Себе особисто<br>
+                <input type="checkbox" name="патріоти" value="податки">Громадян, які працюють і сплачують податки в Україні<br>
+                <input type="checkbox" name="патріоти" value="президент">Президента України П.Порошенка<br>
+                <input type="checkbox" name="патріоти" value="заробітчани">Громадян, які виїздять на заробітки до інших країн<br>
+                <input type="checkbox" name="патріоти" value="РФ заробітчани">Громадян, які виїздять на заробітки до Росії<br>
+                
+            <li>Що Вам необхідно, в першу чергу, для того, щоб відчувати гордість за свою державу?</li>
+             
+                 <input type="radio" name="Україна" value="економіка" checked>Вона має бути політично стабільною, економічно розвинутою і забезпечувати умови для підвищення життєвого рівня своїх громадян<br>
+                 <input type="radio" name="Україна" value="оборона">Вона повинна мати високу обороноздатність, а її політика має бути незалежною від зовнішніх впливів<br>
+                 <input type="radio" name="Україна" value="міжнародна арена">Вона має користуватись авторитетом і повагою на міжнародній арені<br>
+                 <input type="radio" name="Україна" value="культура">Її культура, мистецтво і спорт мають бути широко відомими та популярними у світі<br>
+                 <input type="radio" name="Україна" value="важко">Важко відповісти<br>
+                 
+             <li>Яку мову Ви вважаєте рідною?</li>
+             
+                <input type="radio" name="мова" value="українська" checked>українська<br>
+                <input type="radio" name="мова" value="російська">російська<br>
+                <input type="radio" name="мова" value="інша">інша<br>
+                <input type="radio" name="мова" value="важко відповісти">важко відповісти<br> 
+                 
+                
+         </ol>
+    
+       <input type="submit" value="Відправити"/> <input type="reset" value="Почати спочатку">
+   </form> 
+</body>
+</html>
